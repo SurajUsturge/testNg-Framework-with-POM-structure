@@ -8,7 +8,10 @@ import org.testng.annotations.Test;
 
 public class Parameters_in_testNg {
      
+	//parameter used to pass local or global parameter to specific test.so that we can change it as per 
+//	requirement by using XML file.
 	
+//	when parameter is specified then we cannot run test method. we need to run XML file.
 	
 //launch specific url 
 	@BeforeMethod
