@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="qa_env" value="https://example.com"></parameter>
+    <parameter name="Dev_env" value="https://google.com"></parameter>
+    <classes>
+      <class name="parameters.Parameters_in_testNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

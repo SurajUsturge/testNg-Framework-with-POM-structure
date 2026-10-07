@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-30T17:53:17 IST" name="Suite" finished-at="2026-09-30T17:53:17 IST" duration-ms="47">
+    <groups>
+    </groups>
+    <test started-at="2026-09-30T17:53:17 IST" name="Test" finished-at="2026-09-30T17:53:17 IST" duration-ms="47">
+      <class name="parameters.Parameters_in_testNg">
+        <test-method is-config="true" signature="Environ(java.lang.String)[pri:0, instance:parameters.Parameters_in_testNg@c267ef4]" started-at="2026-09-30T17:53:17 IST" name="Environ" finished-at="2026-09-30T17:53:17 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://example.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Environ -->
+        <test-method signature="case11()[pri:0, instance:parameters.Parameters_in_testNg@c267ef4]" started-at="2026-09-30T17:53:17 IST" name="case11" finished-at="2026-09-30T17:53:17 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case11 -->
+      </class> <!-- parameters.Parameters_in_testNg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
